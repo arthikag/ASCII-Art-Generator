@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  text-align: center;
+  font-family: "Source Code Pro"
+}
+
+input[type="file"] {
+  position: relative;
+  margin: 0 auto 1em;
+}
+
+.p5Canvas {
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  display: inline-block !important;
+  margin: 1em auto;
+  
+  + button {
+    margin-left: 2em;
+  }
+}
